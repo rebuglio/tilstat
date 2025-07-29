@@ -2,8 +2,8 @@ import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
 export function UpperNavbar() {
-    const base = process.env.REACT_APP_BASE_URI;
-    const baseImages = process.env.REACT_APP_BASE_IMAGES;
+    const base = "/";
+    const baseImages = "/tilstat/";
 
     const expand = "sm"
 
@@ -22,7 +22,7 @@ export function UpperNavbar() {
 
                 <Nav className="d-none d-sm-flex justify-content-start pe-3">
                     <Link className="nav-link" to={base}>TilStat</Link>
-                    <Link className="nav-link" to={base+"synoptic"}>Synoptic</Link>
+                    {/*<Link className="nav-link" to={base+"synoptic"}>Synoptic</Link>*/}
                     <Link className="nav-link" to={base+"about"}>About</Link>
                 </Nav>
 

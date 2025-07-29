@@ -54,3 +54,5 @@ webapp/*.sw?
 /data-lab/test-in-laib/intermediate_results/
 /rebuglio.it/
 /webapp/build/
+/data-lab/phd/
+/data-lab/til/ranks/

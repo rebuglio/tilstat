@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 // import Chart from "react-apexcharts";
 
-import tilstat from '../data/tilstat.json'
-import courses from '../data/courses.json'
+import tilstat from '../../../data-lab/til/datasets/tilstat.json'
+import courses from '../../../data-lab/til/datasets/courses.json'
 import {Button, Col, Container, Form, Row, Table} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
@@ -85,7 +85,7 @@ const TilStat = ({courseCode}) => {
                     <li>E così via.</li>
                 </ul>
                 <p>
-                    Il <b>2023</b> rappresenta la graduatoria dell'anno 2023/2024.
+                    Il <b>2024</b> rappresenta la graduatoria per l'accesso all'anno 2024/2025.
                 </p>
             </Col>
         </Row>
